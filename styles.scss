@@ -15,12 +15,48 @@ main {
   line-height: 28px;
   font-stretch: expanded;
   margin-top: 8%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 24%;
+  margin-right: 24%;
   text-align: center;
 }
 
+.topper {
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: 400;
+}
+
+.contact-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  flex-grow: 2;
+}
+
+.flex-container {
+
+}
+.flex-item {
+    padding: 10%;
+    background: #b1b1b1;
+    margin: 5px;
+    color: 777777;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    flex: 1 0 auto;
+    height:auto;
+}
+.flex-item:before {
+    content:'';
+    float:left;
+    padding-top:100%;
+}
+
 .para {
+  font-size: 19px;
   font-weight: lighter;
 }
 
@@ -58,7 +94,7 @@ nav .current {
 
 .info {
   text-align: justify;
-  margin-left: 30%;
+  margin-left: 10%;
 }
 
 #page-container {
