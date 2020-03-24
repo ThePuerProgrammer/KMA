@@ -68,7 +68,7 @@ nav .current {
   /* Footer height */
 }
 
-#foot {
+#foot div {
   border-top: 1px solid #b1b1b1;
   padding-top: 10px;
   font-size: 10px;
