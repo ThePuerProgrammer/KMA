@@ -29,28 +29,27 @@ main {
 .contact-flex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .contact-item {
-  flex-grow: 2;
+  flex-grow: 10;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flex-item {
-  padding: 10%;
+  padding: 80px;
   background: #b1b1b1;
   margin: 5px;
   color: 777777;
   font-weight: bold;
   font-size: 1.5em;
   text-align: center;
-  flex: 1 0 auto;
-  height: auto;
-}
-
-.flex-item:before {
-  content: "";
-  float: left;
-  padding-top: 100%;
 }
 
 .para {
