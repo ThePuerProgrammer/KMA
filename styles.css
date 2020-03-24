@@ -1,0 +1,91 @@
+header {
+  font-family: proxima-nova, sans-serif;
+}
+
+nav {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: proxima-nova, sans-serif;
+}
+
+main {
+  font-family: proxima-nova, sans-serif;
+  line-height: 28px;
+  font-stretch: expanded;
+  margin-top: 8%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.para {
+  font-weight: lighter;
+}
+
+.chunk {
+  font-size: 17px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  padding: 13px;
+}
+
+.nav-link:visited {
+  color: black;
+}
+
+.nav-link:hover {
+  color: #b1b1b1;
+}
+
+nav .current {
+  text-align: center;
+  padding: 13px;
+  color: #b1b1b1;
+  text-decoration: none;
+}
+
+.email-click {
+  color: #777777;
+}
+
+.info {
+  text-align: justify;
+  margin-left: 30%;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content {
+  padding-bottom: 2.5rem;
+  /* Footer height */
+}
+
+#foot {
+  border-top: 1px solid #b1b1b1;
+  padding-top: 10px;
+  font-size: 10px;
+  text-align: right;
+  color: #b1b1b1;
+  position: absolute;
+  bottom: 0;
+  width: 86%;
+  height: 4.5rem;
+  /* Footer height */
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.foot-link {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
