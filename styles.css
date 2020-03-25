@@ -19,8 +19,8 @@ main {
   line-height: 28px;
   font-stretch: expanded;
   margin-top: 8%;
-  margin-left: 24%;
-  margin-right: 24%;
+  margin-left: 8%;
+  margin-right: 8%;
   text-align: center;
 }
 
@@ -132,8 +132,8 @@ nav .current {
 
 @media (min-device-width: 600px) {
   main {
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 24%;
+    margin-right: 24%;
   }
 }
 
