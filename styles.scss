@@ -45,6 +45,7 @@ main {
 }
 
 .flex-container {
+  flex-direction: column;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -64,7 +65,7 @@ main {
 
 .icon-text {
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 150;
   font-stretch: expanded;
 }
 
@@ -163,5 +164,11 @@ nav .current {
   main {
     margin-left: 24%;
     margin-right: 24%;
+  }
+}
+
+@media (min-device-width:600px) {
+  .flex-container {
+    flex-direction: row;
   }
 }
