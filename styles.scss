@@ -20,14 +20,14 @@ main {
   font-family: proxima-nova, sans-serif;
   line-height: 28px;
   font-stretch: expanded;
-  margin-top: 8%;
+  margin-top: 6%;
   margin-left: $max-w;
   margin-right: $max-w;
   text-align: center;
 }
 
 .topper {
-    font-size: 30px;
+    font-size: 27px;
     font-family: inherit;
     font-weight: 400;
 }
@@ -49,16 +49,16 @@ main {
 }
 
 .flex-item {
-    padding: 80px;
+    padding: 67px;
     background: #b1b1b1;
-    margin: 5px;
+    margin: 4px;
     color: 777777;
     font-weight: bold;
     font-size: 1.5em;
     text-align: center;
 }
 .flex-item:before {
-  align-self: flex-start;
+  //align-self: flex-start;
 }
 
 .para {
@@ -130,6 +130,10 @@ nav .current {
 .foot-link {
   color: #b1b1b1;
   text-decoration: none;
+}
+
+#main-logo {
+
 }
 
 @media (min-device-width:600px) {
