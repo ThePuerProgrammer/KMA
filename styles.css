@@ -52,6 +52,10 @@ main {
   text-align: center;
 }
 
+.flex-item:before {
+  align-self: flex-start;
+}
+
 .para {
   font-size: 19px;
   font-weight: lighter;
@@ -102,12 +106,13 @@ nav .current {
 }
 
 #foot div {
+  margin-top: 12%;
   border-top: 1px solid #b1b1b1;
   padding-top: 10px;
   font-size: 10px;
   text-align: right;
   color: #b1b1b1;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 86%;
   height: 4.5rem;
