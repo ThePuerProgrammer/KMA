@@ -1,9 +1,8 @@
 $max-w: 24%;
 
-@media (min-device-width:600px) {
-  $max-w: 12%;
+html {
+  font-size: 100%;
 }
-
 
 header {
   font-family: proxima-nova, sans-serif;
@@ -131,4 +130,11 @@ nav .current {
 .foot-link {
   color: #b1b1b1;
   text-decoration: none;
+}
+
+@media (min-device-width:600px) {
+  main {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
 }
