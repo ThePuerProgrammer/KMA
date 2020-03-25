@@ -25,6 +25,8 @@ main {
 }
 
 .topper {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #b1b1b1;
   font-size: 27px;
   font-family: inherit;
   font-weight: 400;
@@ -47,9 +49,8 @@ main {
 }
 
 .flex-item {
-  padding: 67px;
-  background: #b1b1b1;
-  margin: 4px;
+  padding: 10px;
+  margin: 6px;
   color: 777777;
   font-weight: bold;
   font-size: 1.5em;
@@ -87,6 +88,7 @@ nav .current {
 }
 
 .email-click {
+  text-decoration: none;
   color: #777777;
 }
 
@@ -107,6 +109,22 @@ nav .current {
 
 #foot div {
   margin-top: 12%;
+  border-top: 1px solid #b1b1b1;
+  padding-top: 10px;
+  font-size: 10px;
+  text-align: right;
+  color: #b1b1b1;
+  position: relative;
+  bottom: 0;
+  width: 86%;
+  height: 4.5rem;
+  /* Footer height */
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+#foot-home div {
+  margin-top: 9%;
   border-top: 1px solid #b1b1b1;
   padding-top: 10px;
   font-size: 10px;
