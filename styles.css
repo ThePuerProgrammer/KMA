@@ -52,6 +52,7 @@ main {
 }
 
 .contact-item {
+  flex-basis: auto;
   flex-grow: 100;
 }
 
