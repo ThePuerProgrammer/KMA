@@ -25,11 +25,22 @@ main {
 }
 
 .topper {
-  padding-bottom: 10px;
-  border-bottom: 1px solid #b1b1b1;
   font-size: 27px;
   font-family: inherit;
   font-weight: 400;
+}
+
+#home-body {
+  margin-left: -10%;
+  margin-right: -10%;
+}
+
+#border {
+  padding-top: 12px;
+  border-bottom: 1px solid #b1b1b1;
+  margin-bottom: 12px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .contact-flex {
@@ -131,7 +142,23 @@ nav .current {
 }
 
 #foot-home div {
-  margin-top: 4%;
+  margin-top: -1%;
+  border-top: 1px solid #b1b1b1;
+  padding-top: 10px;
+  font-size: 10px;
+  text-align: right;
+  color: #b1b1b1;
+  position: relative;
+  bottom: 0;
+  width: 86%;
+  height: 4.5rem;
+  /* Footer height */
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+#foot-about div {
+  margin-top: 8%;
   border-top: 1px solid #b1b1b1;
   padding-top: 10px;
   font-size: 10px;
