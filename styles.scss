@@ -31,6 +31,7 @@ main {
   font-family: inherit;
   font-weight: 400;
 }
+
 #home-body {
   margin-left: -10%;
   margin-right: -10%;
@@ -45,13 +46,16 @@ main {
 }
 
 .contact-flex {
+  margin-left: -5%;
+  margin-right: -5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .contact-item {
-  flex-grow: 10;
+  flex-grow: 100;
+  // align-items: flex-start;
 }
 
 .flex-container {
@@ -183,6 +187,10 @@ nav .current {
 
 #main-logo {
 
+}
+
+.add {
+  word-spacing: -6px;
 }
 
 @media (min-device-width:600px) {

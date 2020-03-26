@@ -44,13 +44,15 @@ main {
 }
 
 .contact-flex {
+  margin-left: -5%;
+  margin-right: -5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .contact-item {
-  flex-grow: 10;
+  flex-grow: 100;
 }
 
 .flex-container {
@@ -176,6 +178,10 @@ nav .current {
 .foot-link {
   color: #b1b1b1;
   text-decoration: none;
+}
+
+.add {
+  word-spacing: -6px;
 }
 
 @media (min-device-width: 600px) {
